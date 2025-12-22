@@ -83,7 +83,7 @@ def set_normal_theme():
 
 # -------------------------- 2. 数据读取（完全保留你的原有兼容逻辑） --------------------------
 def get_dataframe_from_csv():
-    csv_path = "D:/streamlit_env/student_data_adjusted_rounded.csv"
+    csv_path = "student_data_adjusted_rounded.csv"
     try:
         df = pd.read_csv(csv_path, encoding="utf-8")
     except UnicodeDecodeError:
